@@ -58,9 +58,9 @@ int main() {
     Stack stack;
     initialize(&stack);
 
-    push(&stack, 10);
-    push(&stack, 20);
-    push(&stack, 30);
+    push(&stack, 55);
+    push(&stack, 78);
+    push(&stack, 36);
 
     printf("Top element: %d\n", peek(&stack));
 
